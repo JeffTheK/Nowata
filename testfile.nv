@@ -1,0 +1,42 @@
+(begin 
+
+    [ print and if example ]
+    (print (str hello) )
+    (print (+ 5 13) )
+    (if (< 15 3) 
+        (print (str yes) ) 
+        (print (str no) ) 
+    )
+    
+    [ variable example ]
+    (var crap 15)
+    (print crap)
+    (print (__vars))
+
+    [ and check ]
+    (if (and (== 1 1) (== 2 2))
+        (print (str ok))
+        (print (str not_ok))
+    )
+
+    [ and fail check ]
+    (if (and (== 1 2) (== 2 2))
+        (print (str ok))
+        (print (str not_ok))
+    )
+    
+    [ list example ]
+    (print (list 1 2 3 4 5))
+    (print (sort (list 5 4 3 2 1)))
+
+    [ for each example ]
+    (foreach x (list 1 2 3 4 5)
+        (print x)
+    )
+
+    [ input example ]
+    (print (str enter a number:))
+    (var num (input))
+    (print (str you entered:))
+    (print num)
+)

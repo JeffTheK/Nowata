@@ -1,7 +1,5 @@
-import lang
+import interpreter
 
 code = "(print (str hello))"
 
-print(lang.tokenize(code))
-print(lang.parse(code))
-lang.exec_file('testfile.nv')
+interpreter.exec_file('testfile.nv')

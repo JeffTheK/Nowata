@@ -17,7 +17,7 @@ A nowata program consits of expressions
 
 `(SYMBOL ARGS...)`
 
-Where `symbol` is either a keyword or function name and `ARGS...` are any number of expressions or Atoms
+AN expression is enclosed in braces, where `SYMBOL` is either a keyword or function name and `ARGS...` are any number of expressions or Atoms
 
 #### Example
 

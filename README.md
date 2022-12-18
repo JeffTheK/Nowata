@@ -1,11 +1,13 @@
 # Nowata
 
+My first Lisp like programming language
+
 ## Installation
 
 * clone the repo
 * cd into root directory of repo
 * run `pip install .`
-* now you have nowata instaleld and you can run files with `nowata your-file.nv`
+* now you have nowata installed and you can run files with `nowata your-file.nv`
 
 ## Syntax
 

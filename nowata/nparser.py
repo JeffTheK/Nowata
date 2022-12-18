@@ -1,4 +1,4 @@
-from ntypes import *
+from .ntypes import *
 
 COMMENT_BEGIN = '['
 COMMENT_END = ']'

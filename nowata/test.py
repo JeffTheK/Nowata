@@ -1,4 +1,4 @@
-import interpreter
+from . import interpreter
 
 code = "(print (str hello))"
 

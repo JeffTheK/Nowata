@@ -32,6 +32,7 @@ DEBUG_FUNCS = {
 CORE_FUNCS = {
     'print': lambda args: print(args[0]),
     'sort': lambda args: sorted(args[0]),
+    'type': lambda args: type(args[0]).__name__
 }
 
 FUNCS = { **MATH_FUNCS, **OPERATOR_FUNCS, **DEBUG_FUNCS, **CORE_FUNCS }

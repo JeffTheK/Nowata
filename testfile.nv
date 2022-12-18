@@ -36,6 +36,10 @@
 
     [ type test ]
     (print (type (list 1 2 3 4 5)))
+    
+    [user defined func test]
+    (func my-func1 (print (str Hello from my-func1)))
+    (my-func1)
 
     [ input example ]
     (print (str enter a number:))

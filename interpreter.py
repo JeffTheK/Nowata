@@ -40,6 +40,10 @@ def eval(x: Exp, vars: dict):
             vars[var_name] = collection[i]
             for expr in x[3:]:
                 eval(expr, vars)
+    elif x[0] == 'func':
+        name = x[1]
+        body = x[2:]
+        funcs[name] = lambda args, body=body: [eval(y, vars) for y in body]
     else:
         func = funcs[x[0]]
         args = [eval(arg, vars) for arg in x[1:]]

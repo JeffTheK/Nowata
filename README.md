@@ -62,3 +62,14 @@ AN expression is enclosed in braces, where `SYMBOL` is either a keyword or funct
 #### Example
 
 `(func print-hello (print (str Hello There!)))`
+
+#### Operators
+
+* (== A B) - returns whether A equals B
+* (!= A B) - retrurns whether A NOT equals B
+* (> A B) - returns whether A is greater then B
+* (< A B) - returns whether A is less then B
+* (+ A B) - returns A plus B
+* (- A B) - returns A minus B
+* (* A B) - returns A multiplied by B
+* (/ A B) - returns A divided by B

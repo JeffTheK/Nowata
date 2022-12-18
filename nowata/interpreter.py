@@ -61,3 +61,6 @@ def run():
     if len(sys.argv) == 2:
         file_path = sys.argv[1]
         exec_file(file_path)
+
+if __name__ == "__main__":
+    run()
